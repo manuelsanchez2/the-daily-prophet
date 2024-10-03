@@ -15,7 +15,7 @@
             <img class="brightness-0" src={dailyProphet} alt="The Daily Prophet Logo" />
         </figure>
     
-        <div class="px-z-ds-12">
+        <div class="px-z-ds-6 sm:px-z-ds-12">
     
             <div class="my-z-ds-32 px-z-ds-24 py-z-ds-16 border-4 border-black w-full">
                 <h1 class="text-8xl lg:text-[160px] leading-none font-bold font-headline uppercase lg:mb-z-ds-24">Out of Azkaban</h1>
