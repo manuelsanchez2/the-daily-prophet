@@ -1,0 +1,143 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 09 Sep 2024 14:40:23 GMT
+ */
+:root {
+  --z-ds-color-general-black-40: rgba(0, 0, 0, 0.4);
+  --z-ds-color-general-black-60: rgba(0, 0, 0, 0.6);
+  --z-ds-color-general-black-80: rgba(0, 0, 0, 0.8);
+  --z-ds-color-general-black-100: #000000;
+  --z-ds-color-general-black-100--rgb: 0, 0, 0;
+  --z-ds-color-general-white-40: rgba(255, 255, 255, 0.4);
+  --z-ds-color-general-white-60: rgba(255, 255, 255, 0.6);
+  --z-ds-color-general-white-80: rgba(255, 255, 255, 0.8);
+  --z-ds-color-general-white-100: #ffffff;
+  --z-ds-color-general-white-100--rgb: 255, 255, 255;
+  --z-ds-color-background-0: #ffffff;
+  --z-ds-color-background-10: #eeeeee;
+  --z-ds-color-background-20: #dfdfe1;
+  --z-ds-color-background-0--rgb: 255, 255, 255;
+  --z-ds-color-background-modal: #ffffff;
+  --z-ds-color-background-warning: #ffe246;
+  --z-ds-color-background-success: #09864d;
+  --z-ds-color-text-40: #999999;
+  --z-ds-color-text-55: #69696c;
+  --z-ds-color-text-70: #444444;
+  --z-ds-color-text-100: #252525;
+  --z-ds-color-text-100--rgb: 37, 37, 37;
+  --z-ds-color-accent-70: #880d07;
+  --z-ds-color-accent-100: #b91109;
+  --z-ds-color-error-70: #bf4040;
+  --z-ds-color-focus-100: #005fcc;
+  --z-ds-color-hey-studium-primary: #8578e6;
+  --z-ds-color-hey-studium-button-default: #c1bbec;
+  --z-ds-color-hey-studium-button-hover: #8578e6;
+  --z-ds-color-border-70: #e4e4e4;
+  --z-ds-color-border-100: #cccccf;
+  --z-ds-color-border-hover: #444444;
+  --z-ds-fontsize-12: 0.75rem;
+  --z-ds-fontsize-14: 0.875rem;
+  --z-ds-fontsize-16: 1rem;
+  --z-ds-fontsize-18: 1.125rem;
+  --z-ds-fontsize-20: 1.25rem;
+  --z-ds-fontsize-22: 1.375rem;
+  --z-ds-fontsize-24: 1.5rem;
+  --z-ds-fontsize-26: 1.625rem;
+  --z-ds-fontsize-30: 1.875rem;
+  --z-ds-fontsize-32: 2rem;
+  --z-ds-fontsize-34: 2.125rem;
+  --z-ds-fontsize-36: 2.25rem;
+  --z-ds-fontsize-42: 2.625rem;
+  --z-ds-fontsize-46: 2.875rem;
+  --z-ds-fontsize-54: 3.375rem;
+  --z-ds-lineheight-10: 1;
+  --z-ds-lineheight-11: 1.1;
+  --z-ds-lineheight-12: 1.2;
+  --z-ds-lineheight-15: 1.5;
+  --z-ds-letter-spacing-1: 0.02em;
+  --z-ds-border-radius-2: 0.125rem;
+  --z-ds-border-radius-4: 0.25rem;
+  --z-ds-border-radius-8: 0.5rem;
+  --z-ds-boxshadow-base: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.05);
+  --z-ds-boxshadow-tooltip: 0 0 1px rgba(0, 0, 0, 0.2), 0 0 1.25rem rgba(0, 0, 0, 0.05);
+  --z-ds-filter-tooltip: drop-shadow(0 0 1px rgba(0, 0, 0, 0.2)) drop-shadow(0 0 1.25rem rgba(0, 0, 0, 0.05));
+  --z-ds-space-4: 0.25rem;
+  --z-ds-space-6: 0.375rem;
+  --z-ds-space-8: 0.5rem;
+  --z-ds-space-10: 0.625rem;
+  --z-ds-space-12: 0.75rem;
+  --z-ds-space-14: 0.875rem;
+  --z-ds-space-16: 1rem;
+  --z-ds-space-20: 1.25rem;
+  --z-ds-space-24: 1.5rem;
+  --z-ds-space-32: 2rem;
+  --z-ds-space-56: 3.5rem;
+  --z-ds-space-xxxs: 0.25rem;
+  --z-ds-space-xxs: 0.25rem;
+  --z-ds-space-xs: 0.5rem;
+  --z-ds-space-s: 0.75rem;
+  --z-ds-space-m: 1rem;
+  --z-ds-space-l: 1.5rem;
+  --z-ds-space-xl: 2rem;
+  --z-ds-space-xxl: 2rem;
+  --z-ds-space-teaser: 1.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not(.color-scheme-light) {
+    --z-ds-color-background-0: #121212;
+    --z-ds-color-background-10: #232323;
+    --z-ds-color-background-20: #2e2e2e;
+    --z-ds-color-background-0--rgb: 18, 18, 18;
+    --z-ds-color-background-modal: #232323;
+    --z-ds-color-background-warning: #ffd60a;
+    --z-ds-color-background-success: #09864d;
+    --z-ds-color-text-40: #8b8b8b;
+    --z-ds-color-text-55: #999999;
+    --z-ds-color-text-70: #bababa;
+    --z-ds-color-text-100: #ffffff;
+    --z-ds-color-text-100--rgb: 255, 255, 255;
+    --z-ds-color-accent-70: #880d07;
+    --z-ds-color-accent-100: #eb362e;
+    --z-ds-color-error-70: #f13638;
+    --z-ds-color-focus-100: #54a3fe;
+    --z-ds-color-hey-studium-primary: #a295ec;
+    --z-ds-color-hey-studium-button-default: #a295ec;
+    --z-ds-color-hey-studium-button-hover: #cbc1f5;
+    --z-ds-color-border-70: #2e2e2e;
+    --z-ds-color-border-100: #363636;
+    --z-ds-color-border-hover: #bababa;
+  }
+}
+html.color-scheme-dark {
+  --z-ds-color-background-0: #121212;
+  --z-ds-color-background-10: #232323;
+  --z-ds-color-background-20: #2e2e2e;
+  --z-ds-color-background-0--rgb: 18, 18, 18;
+  --z-ds-color-background-modal: #232323;
+  --z-ds-color-background-warning: #ffd60a;
+  --z-ds-color-background-success: #09864d;
+  --z-ds-color-text-40: #8b8b8b;
+  --z-ds-color-text-55: #999999;
+  --z-ds-color-text-70: #bababa;
+  --z-ds-color-text-100: #ffffff;
+  --z-ds-color-text-100--rgb: 255, 255, 255;
+  --z-ds-color-accent-70: #880d07;
+  --z-ds-color-accent-100: #eb362e;
+  --z-ds-color-error-70: #f13638;
+  --z-ds-color-focus-100: #54a3fe;
+  --z-ds-color-hey-studium-primary: #a295ec;
+  --z-ds-color-hey-studium-button-default: #a295ec;
+  --z-ds-color-hey-studium-button-hover: #cbc1f5;
+  --z-ds-color-border-70: #2e2e2e;
+  --z-ds-color-border-100: #363636;
+  --z-ds-color-border-hover: #bababa;
+}
+
+@media screen and (min-width: 48em) {
+  :root {
+    --z-ds-space-xxs: 0.375rem;
+    --z-ds-space-xxl: 3.5rem;
+    --z-ds-space-teaser: 3.5rem;
+  }
+}

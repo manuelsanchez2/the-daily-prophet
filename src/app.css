@@ -1,0 +1,32 @@
+@import './design-system.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --z-ds-font-headline: "Champion Gothic", sans-serif;
+    --z-ds-font-letter: "Varius Multiplex", sans-serif;
+    --z-ds-font-text: "Cloister Black", "Helvetica", sans-serif;
+}
+
+body {
+    font-family: var(--z-ds-font-text);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    line-height: 1;
+}
+
+/* .special::first-letter {
+    float: left;
+    shape-outside: circle(50%);
+    width: 200px;
+    height: 200px;
+    initial-letter-wrap: both;
+    display: block;
+} */
