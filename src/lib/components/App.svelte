@@ -41,7 +41,7 @@
               
                     <div class="lg:col-span-3 lg:pl-z-ds-4 my-z-ds-16 md:-mt-6 lg:my-0">
                         <!-- svelte-ignore a11y_media_has_caption -->
-                        <video class="w-full" src={siriusVideo} autoplay loop controls></video>
+                        <video class="w-full" src={siriusVideo} autoplay loop controls playsinline></video>
 
                         <p class="special mt-z-ds-24 lg:mt-z-ds-12 first-letter:font-letter first-letter:text-[120px] lg:first-letter:text-[160px] first-letter:float-start first-letter:mr-z-ds-4">
                             Despite the Ministry’s reassurances and the presence of the Dementors, Harry couldn’t shake the feeling that something was amiss. His life at Hogwarts, normally filled with the usual mischief, classes, and adventures with his friends, Ron Weasley and Hermione Granger, had taken on a darker tone. Whispers of Sirius Black reached his ears at every turn. There was no escaping the looming threat of Black.
