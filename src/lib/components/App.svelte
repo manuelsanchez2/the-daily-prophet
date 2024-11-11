@@ -4,6 +4,7 @@
 	import GridDebug from '$lib/components/GridDebug.svelte';
 	import NoisyBackground from '$lib/components/NoisyBackground.svelte';
 	import IssueSiriusBlack from '$lib/issues/IssueSiriusBlack.svelte';
+	import IssueWorldCup from '$lib/issues/IssueWorldCup.svelte';
 
 	let newspaperIssue = $state(issue);
 
@@ -45,7 +46,7 @@
 			{#if newspaperIssue == 'sirius-black'}
 				<IssueSiriusBlack />
 			{:else if newspaperIssue === 'world-cup'}
-				<h1>IssueWorldCup</h1>
+				<IssueWorldCup />
 			{/if}
 		</div>
 	</div>
