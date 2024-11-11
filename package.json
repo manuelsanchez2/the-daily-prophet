@@ -14,7 +14,6 @@
 		"test:integration": "playwright test",
 		"test:unit": "vitest",
 		"copy:zds": "cp node_modules/@zeitonline/design-system/design-system.css ./src/design-system.css"
-
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
@@ -40,6 +39,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@vercel/analytics": "^1.3.2",
 		"@zeitonline/design-system": "^0.3.4"
 	}
 }
